@@ -18,5 +18,7 @@ class wireProtocol
 		void stop();
 
  	private:
+		void sendStartSignal();
+		void getResponse();
 
 };

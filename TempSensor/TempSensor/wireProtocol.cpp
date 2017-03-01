@@ -6,9 +6,11 @@
 wireProtocol::wireProtocol()
 {
 }
+
 #pragma endregion
 
 #pragma region Public
+
 void wireProtocol::launch()
 {
 }
@@ -16,5 +18,17 @@ void wireProtocol::launch()
 void wireProtocol::stop()
 {
 }
+
+#pragma endregion
+
+#pragma region Private
+
+void wireProtocol::sendStartSignal()
+{
+}
+void wireProtocol::getResponse()
+{
+}
+
 #pragma endregion
 
