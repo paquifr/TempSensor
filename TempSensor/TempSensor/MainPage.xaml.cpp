@@ -24,6 +24,4 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
-	int32_t number = 0;
-	number += 1;
 }
