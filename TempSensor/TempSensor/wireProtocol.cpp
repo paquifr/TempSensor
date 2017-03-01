@@ -5,12 +5,16 @@
 
 wireProtocol::wireProtocol()
 {
-
 }
+#pragma endregion
 
+#pragma region Public
 void wireProtocol::launch()
 {
-
 }
 
+void wireProtocol::stop()
+{
+}
 #pragma endregion
+

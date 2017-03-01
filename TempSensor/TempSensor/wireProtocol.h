@@ -8,9 +8,14 @@ class wireProtocol
 		wireProtocol();
 
 		/// <summary>
-		/// Launch the data acquisition process from the DHT11 chip.
+		/// Launch the data acquisition from the DHT11 chip.
 		/// </summary>
 		void launch();
+
+		/// <summary>
+		/// Stop the data acquisition from the DHT11 chip.
+		/// </summary>
+		void stop();
 
  	private:
 
