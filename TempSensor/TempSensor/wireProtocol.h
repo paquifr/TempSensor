@@ -23,6 +23,8 @@ class wireProtocol
  	private:
 		void sendStartSignal();
 		void getResponse();
+		void getPCFrequency();
 		GpioPin^ _pin = nullptr;
+		double _pcFrequency = 0.0f;
 
 };
