@@ -1,5 +1,6 @@
 #include "pch.h"
 #include "wireProtocol.h"
+#include <Windows.h>
 
 #pragma region Initializers
 
@@ -25,6 +26,7 @@ void wireProtocol::stop()
 
 void wireProtocol::sendStartSignal()
 {
+
 }
 void wireProtocol::getResponse()
 {

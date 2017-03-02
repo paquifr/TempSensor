@@ -1,0 +1,1 @@
+C:\Users\Frank\Documents\TempSensor\TempSensor\TempSensor\TempSensor.vcxproj;arm
