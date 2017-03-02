@@ -25,6 +25,7 @@ void wireProtocol::stop()
 
 void wireProtocol::sendStartSignal()
 {
+
 }
 void wireProtocol::getResponse()
 {

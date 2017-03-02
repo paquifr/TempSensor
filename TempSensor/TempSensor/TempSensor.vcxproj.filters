@@ -22,12 +22,18 @@
     <ClCompile Include="wireProtocol.cpp">
       <Filter>GPIO</Filter>
     </ClCompile>
+    <ClCompile Include="GpioConnection.cpp">
+      <Filter>GPIO</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="wireProtocol.h">
+      <Filter>GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="GpioConnection.h">
       <Filter>GPIO</Filter>
     </ClInclude>
   </ItemGroup>
