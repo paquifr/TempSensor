@@ -3,7 +3,7 @@
 
 #pragma region Initializers
 
-wireProtocol::wireProtocol()
+wireProtocol::wireProtocol(GpioPin^ pin)
 {
 }
 
@@ -25,7 +25,6 @@ void wireProtocol::stop()
 
 void wireProtocol::sendStartSignal()
 {
-
 }
 void wireProtocol::getResponse()
 {

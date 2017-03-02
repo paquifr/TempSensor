@@ -27,13 +27,13 @@
     <AppXManifest Include="C:\Users\Frank\Documents\TempSensor\TempSensor\Debug\TempSensor\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-01T01:58:05.835</Modified>
+      <Modified>2017-03-02T00:38:26.268</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Frank\Documents\TempSensor\TempSensor\Debug\TempSensor\TempSensor.exe">
       <PackagePath>TempSensor.exe</PackagePath>
-      <Modified>2017-03-01T01:59:35.390</Modified>
+      <Modified>2017-03-02T00:44:21.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Frank\Documents\TempSensor\TempSensor\Debug\TempSensor\TempSensor.winmd">
       <PackagePath>TempSensor.winmd</PackagePath>
@@ -80,7 +80,7 @@
     <AppxPackagedFile Include="C:\Users\Frank\Documents\TempSensor\TempSensor\Debug\TempSensor\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-01T01:58:05.733</Modified>
+      <Modified>2017-03-02T00:38:26.137</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

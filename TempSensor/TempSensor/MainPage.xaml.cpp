@@ -5,7 +5,7 @@
 
 #include "pch.h"
 #include "MainPage.xaml.h"
-
+#include "GpioConnection.h"
 using namespace TempSensor;
 
 using namespace Platform;
@@ -24,4 +24,6 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+	GpioConnection connection(5);
+
 }

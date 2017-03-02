@@ -1,5 +1,6 @@
 #pragma once
 #include "pch.h"
+#include "GpioConnection.h"
 
 using namespace Windows::Devices::Gpio;
 
@@ -7,7 +8,7 @@ class wireProtocol
 {
 	public:
 		// wireProtocol(GPIOConnection& connection);
-		wireProtocol();
+		wireProtocol(GpioPin^ pin);
 
 		/// <summary>
 		/// Launch the data acquisition from the DHT11 chip.
@@ -22,5 +23,6 @@ class wireProtocol
  	private:
 		void sendStartSignal();
 		void getResponse();
+		GpioPin^ _pin = nullptr;
 
 };
